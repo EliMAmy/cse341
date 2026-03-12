@@ -6,6 +6,7 @@ const helloDani= (req ,res) =>{
     res.send("Hello Daniel");
 };
 
+
 module.exports= {
     helloRoute,helloDani
 };
