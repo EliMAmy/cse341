@@ -1,7 +1,8 @@
-const routes= require("express").Router();
-const lesson1Controller = require('../controllers/lesson1');
+const router= require("express").Router();
 
-routes.get("/", lesson1Controller.helloDani);
-routes.get("/dani", lesson1Controller.helloRoute);
 
-module.exports= routes;
+router.get("/", (req, res) => (res.send("Hello World")));
+
+router.use("/users", require("./users"));
+
+module.exports= router;
