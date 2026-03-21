@@ -1,0 +1,32 @@
+//LOCALHOST
+### Get all users
+GET http://localhost:3000/users
+
+###Get contact by id 
+GET http://localhost:3000/users/69b4e4c224ca9609fa971310 
+
+### Post create a user***
+POST http://localhost:3000/users 
+Content-type: application/json
+
+{
+    "firstName": "Juan",
+    "lastName": "Delgado",
+    "email": "juan1234@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "september,14"
+}
+
+###Put contact
+PUT http://localhost:3000/users/69bc7e414be1205dd624ba95
+Content-type: application/json
+
+{
+    "firstName": "Juan",
+    "lastName": "Flores",
+    "email": "juan1000@gmail.com",
+    "favoriteColor": "white",
+    "birthday": "september,4"
+}
+###Delete contact
+DELETE http://localhost:3000/users/69bc7e414be1205dd624ba95
