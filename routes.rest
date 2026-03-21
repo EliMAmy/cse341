@@ -18,7 +18,7 @@ Content-type: application/json
 }
 
 ###Put contact
-PUT http://localhost:3000/users/69bc7e414be1205dd624ba95
+PUT http://localhost:3000/users/69bf15c2d5f5b1b000ee6289
 Content-type: application/json
 
 {
@@ -29,4 +29,4 @@ Content-type: application/json
     "birthday": "september,4"
 }
 ###Delete contact
-DELETE http://localhost:3000/users/69bc7e414be1205dd624ba95
+DELETE http://localhost:3000/users/69bf15c2d5f5b1b000ee6289
